@@ -184,9 +184,14 @@ nav a:hover {
 .bottomimg {
     width: 100%;
     position: fixed;
-    bottom: -14rem;
-    left: -7rem;
-
+    bottom: -8rem;
+    display: flex;
+    justify-content: center;
+}
+.bottomimg img {
+    width: 60%;
+    height: auto;
+    object-position: 50% 100%;
 }
 
 .grid1 {
@@ -220,7 +225,7 @@ nav a:hover {
     width: 100%;
     height: 100%;
     align-items: center;
-    font-size: .7rem;
+    font-size: 1rem;
 
 }
 .elem1-1 {
@@ -286,7 +291,7 @@ nav a:hover {
     gap: .7rem;
     width: 100%;
     background-color: teal;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
     padding-top: 5rem;
 
 
@@ -311,7 +316,7 @@ nav a:hover {
     width: 100%;
     height: 100%;
     align-items: center;
-    font-size: .7rem;
+    font-size: 1rem;
 }
 .elem2-1 {
     grid-column: 2;
@@ -380,7 +385,7 @@ nav a:hover {
 }
 footer {
     text-align: center;
-    margin: 3rem;
+    margin: 8rem;
 }
 @media screen and (max-width:500px) {
     .dropcap::first-letter {

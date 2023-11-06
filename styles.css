@@ -196,7 +196,7 @@ nav a:hover {
 
 .grid1 {
     display: inline-grid;
-    grid-template-columns: 25% auto 25%;
+    grid-template-columns: 29.5% auto 25%;
     grid-template-rows: 8rem 20rem 15rem 16rem 18rem;
     gap: .7rem;
     width: 100%;
@@ -215,17 +215,18 @@ nav a:hover {
     text-align: center;
     font-size: 3rem;
 }
-.grid1 .wintertext {
+
+.grid1 .wintertext2 {
     grid-column: 2;
     grid-row: 3;
     text-align: center;
 }
-.wintertext {
+.wintertext2 {
     display: flex;
     width: 100%;
     height: 100%;
     align-items: center;
-    font-size: 0.8rem;
+    font-size: 1rem;
 
 }
 .elem1-1 {
@@ -260,7 +261,7 @@ nav a:hover {
     grid-column: 1;
     grid-row: 3;
 }
-.elem1-4 img {
+.elem1-4 iframe {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -275,7 +276,7 @@ nav a:hover {
     object-fit: cover;
 }
 .elem1-6 {
-    grid-column: 1 / span 3;
+    grid-column: 1 / span 2;
     grid-row: 5;
 }
 .elem1-6 img {
@@ -283,6 +284,10 @@ nav a:hover {
     height: 100%;
     object-fit: cover;
     object-position: 50% 0%;
+}
+.grid1 .temperature {
+    grid-column: 3;
+    grid-row: 5;
 }
 .grid2 {
     display: inline-grid;
@@ -316,7 +321,7 @@ nav a:hover {
     width: 100%;
     height: 100%;
     align-items: center;
-    font-size: 0.6rem;
+    font-size: 1rem;
 }
 .elem2-1 {
     grid-column: 2;
@@ -378,7 +383,7 @@ nav a:hover {
     grid-column: 2;
     grid-row: 5 / span 2;
 }
-.elem2-7 img {
+.elem2-7 iframe {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -408,7 +413,7 @@ footer {
         padding: 0 .1rem;
     }
     .ndbanner {
-        padding: 1rem .7rem 1rem .7rem;
+        padding: 1rem .1rem 1rem .1rem;
     }
 
 }
